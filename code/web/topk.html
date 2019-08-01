@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <!--For Font -->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no"
+          name="viewport">
+    <script src="topk.js"></script>
+</head>
+<body>
+<h4 style="padding:2% "> Get Top K Trending Topics </h4>
+<div style="padding-left: 20px">
+    <div class="input-group mb-3" style="width:400px">
+        <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">Top K</span>
+        </div>
+        <input type="text" class="form-control" placeholder="Enter value of K" aria-label="Username"
+               aria-describedby="basic-addon1" id="getK">
+    </div>
+    <br>
+    <div>
+        <button type="button" class="btn btn-primary" id='getKButton'>Get top K</button>
+    </div>
+    <div>
+        <br>
+        <p id="branchBlock"> List of top K words </p>
+        <div id="branchBlock"></div>
+    </div>
+</div>
+</div>
+</body>
+</html>

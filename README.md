@@ -52,6 +52,6 @@ Setup:
         open -a Google\ Chrome --args --disable-web-security --user-data-dir=""
 
 
-Other details are present in the screencast, Thank you!
+Other details are present in the screencast video and the presentation pdf, Thank you!
 
 

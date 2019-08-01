@@ -20,9 +20,11 @@ Requirements:
 Steps to start the service:
 
  1. Start Zookeeper
+ 
         zookeeper-server-start /usr/local/etc/kafka/zookeeper.properties
 
  2. Start Kafka
+ 
         kafka-server-start /usr/local/etc/kafka/server.properties
 
  3. Create Topics:

@@ -64,6 +64,6 @@ Steps to start the service:
         chrome --disable-web-security --user-data-dir
 
 
-Other details are present in the Screencast video ( [link](https://drive.google.com/open?id=1W0o-URpjh8saD_508anorfQPIC-DV_iX) ), Thank you!
+Other details are present in the Screencast video ( [link](https://drive.google.com/open?id=1W0o-URpjh8saD_508anorfQPIC-DV_iX) ) and Presentation ( [link](https://github.com/patelharsh867/Trending-Topic-Miner/blob/master/Trending_Topic_Miner_Presentation.pdf) ), Thank you!
 
 
